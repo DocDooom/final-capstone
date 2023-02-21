@@ -77,14 +77,14 @@ To run the program, execute the **inventory.py** file. A menu will be displayed,
 Inventory data should show **Inventory data OK ✓.**
 If there is a problem you will see the following screen:
 
-<p align="center"><img src="images/capstone_iv_inv_error.PNG"  width="600" target="_blank"/><br><i>Fig. 1.1 Inventory Error</i></p>
+<p align="center"><img src="images/capstone_iv_inv_error.PNG"  width="600" target="_blank"/><br><i>Fig. 1 Inventory Error</i></p>
 
 If this occurs you should check that your **inventory.txt** file is located in the same folder as your
 **inventory.py** file.
 
 Issues with the data within the **inventory.txt** will produce a warning.
 
-<p align="center"><img src="images/capstone_iv_inv_warning.PNG"  width="750" target="_blank"/><br><i>Fig. 1.2 Inventory Error</i></p>
+<p align="center"><img src="images/capstone_iv_inv_warning.PNG"  width="750" target="_blank"/><br><i>Fig. 1.21 Inventory Error</i></p>
 
 #### Menu
 The program launches with a header and main menu from this menu you can select actions you'd like to take on
@@ -98,7 +98,7 @@ the loaded inventory.
 - **t** - View the total value of the current inventory
 - **e** - Exit
 
-  <p align="center"><img src="images/capstone_iv_01.PNG"  width="400" target="_blank"/><br><i>Fig. 1 Main Menu</i></p>
+  <p align="center"><img src="images/capstone_iv_01.PNG"  width="400" target="_blank"/><br><i>Fig. 1.2 Main Menu</i></p>
 
 #### Features
 
