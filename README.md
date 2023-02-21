@@ -75,20 +75,39 @@ python inventory.py
 To run the program, execute the **inventory.py** file. A menu will be displayed, allowing you to choose which task to perform. Follow the prompts to complete the task.
 
 #### Menu
-Once the user accesses the program, the menu is shown below:
-- **1** - Check inventory
-- **2** - Restock item
-- **3** - Search item
-- **4** - Inventory value
-- **5** - Item being for sale
+The program launches with a header and main menu from this menu you can select actions you'd like to take on
+the loaded inventory.
 
-  <p align="center"><img src="assets/capston04_1.png"  width="600" target="_blank"/><br><i>Fig. 4.2 Menu</i></p>
+- **v** - View all inventory
+- **s** - Search for shoe by SKU
+- **a** - Add new item to inventory
+- **r** - Restock low items
+- **h** - Put high stock items on sale
+- **t** - View the total value of the current inventory
+- **e** - Exit
+
+  <p align="center"><img src="images/capstone_iv_01.PNG"  width="400" target="_blank"/><br><i>Fig. 1 Main Menu</i></p>
+
+Inventory data should show **Inventory data OK ✓.**
+If there is a problem you will see the following screen:
+
+<p align="center"><img src="images/capstone_iv_inv_error.PNG"  width="700" target="_blank"/><br><i>Fig. 1.1 Inventory Error</i></p>
+
+If this occurs you should check that your **inventory.txt** file is located in the same folder as your
+**inventory.py** file.
+
+Issues with the data within the **inventory.txt** will produce a warning.
+
+<p align="center"><img src="images/capstone_iv_inv_warning.PNG"  width="750" target="_blank"/><br><i>Fig. 1.2 Inventory Error</i></p>
+
 
 #### Features
 
-- **Check inventory:** It displays **country**, **product code,** **product name**, **cost** and **quantity** of all the inventory in the warehouse.
+- **View All Inventory:** Displays a table of **country**, **product code,** **product name**, **cost** and **quantity** 
+for all the inventory loaded from the **inventory.txt** file
 
-  <p align="center"><img src="assets/capston04_2.png"  width="600" target="_blank"/><br><i>Fig. 4.3 Check inventory</i></p>
+  <p align="center"><img src="images/capstone_iv_02.PNG"  width="600" target="_blank"/><br><i>Fig. 1.3  v selected from </i></p>
+
 
 - **Restock item:** It finds the item with the **lowest** quantity that need to be re-stocked. 
 
