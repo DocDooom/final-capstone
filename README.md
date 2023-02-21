@@ -18,7 +18,7 @@ This script allows a user to manage and administrate their stock. In this partic
 in the **inventory.txt** file provided. However, any text file containing CSV formatted data can be read by the manager.
 To search by SKU a unique SKU identifier must be included.
 
-  <p align="center"><img src="images/capstone_iv_01.png"  width="500" target="_blank"/><br><i>Inventory Manager main menu</i></p>
+  <p align="center"><img src="images/capstone_iv_01.PNG"  width="500" target="_blank"/><br><i>Inventory Manager main menu</i></p>
 
 ### Getting Started
 The following instruction will help you get up and running
