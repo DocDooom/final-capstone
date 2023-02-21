@@ -91,7 +91,7 @@ the loaded inventory.
 Inventory data should show **Inventory data OK ✓.**
 If there is a problem you will see the following screen:
 
-<p align="center"><img src="images/capstone_iv_inv_error.PNG"  width="700" target="_blank"/><br><i>Fig. 1.1 Inventory Error</i></p>
+<p align="center"><img src="images/capstone_iv_inv_error.PNG"  width="600" target="_blank"/><br><i>Fig. 1.1 Inventory Error</i></p>
 
 If this occurs you should check that your **inventory.txt** file is located in the same folder as your
 **inventory.py** file.
@@ -106,26 +106,35 @@ Issues with the data within the **inventory.txt** will produce a warning.
 - **View All Inventory:** Displays a table of **country**, **product code,** **product name**, **cost** and **quantity** 
 for all the inventory loaded from the **inventory.txt** file
 
-  <p align="center"><img src="images/capstone_iv_02.PNG"  width="600" target="_blank"/><br><i>Fig. 1.3  v selected from </i></p>
+  <p align="center"><img src="images/capstone_iv_02.PNG"  width="500" target="_blank"/><br><i>Fig. 1.3  v selected inventory top </i></p>
+<p align="center"><img src="images/capstone_iv_inv_bot.PNG"  width="500" target="_blank"/><br><i>Fig. 1.4 inventory display bottom -> back to main menu </i></p>
 
 
-- **Restock item:** It finds the item with the **lowest** quantity that need to be re-stocked. 
+- **Search by SKU:** allows you to search for a shoe by SKU. You do not have to input the SKU prefix to find the shoe
+The program will automatically detect whether you have included it or not. 
 
-  <p align="center"><img src="assets/capston04_3.png"  width="600" target="_blank"/><br><i>Fig. 4.4 Restock item</i></p>
-  
-  <p align="center"><img src="assets/capston04_4.png"  width="600" target="_blank"/><br><i>Fig. 4.5 Restock item (+ quantity) </i></p>
+  <p align="center"><img src="images/capstone_iv_search.PNG"  width="500" target="_blank"/><br><i>Fig. 1.5 Search by SKU</i></p>
  
-- **Search item:** It searches for a item by product **code**.
+- **Add New Item to Inventory:** This allows you create a new entry in the inventory by inputting the various needed parameters
 
-<p align="center"><img src="assets/capston04_5.png"  width="600" target="_blank"/><br><i>Fig. 4.6 Search item by product code</i></p>
+<p align="center"><img src="images/capstone_iv_add.PNG"  width="500" target="_blank"/><br><i>Fig. 1.6 Add a new item</i></p>
 
--  **Inventory value:** It calculates the total value (**cost x quantity**) for each item.
+- **Restock low items:** This gives you the ability to view what item has the lowest stock and decide to restock that item
 
-<p align="center"><img src="assets/capston04_6.png"  width="600" target="_blank"/><br><i>Fig. 4.7 Inventory value</i></p>
+<p align="center"><img src="images/capstone_iv_restock.png"  width="490" target="_blank"/><br><i>Fig. 1.7 The above gives you the option to change stock levels to a new desired value</i></p>
 
-- **Item being for sale:** It determines the item with the **highest quantity** as being for sale.
+- **Put High Stock Items On Sale:** This options shows the item with the highest stock amount and lets you input the **percentage (%)** you'd like to discount by
 
-<p align="center"><img src="assets/capston04_7.png"  width="600" target="_blank"/><br><i>Fig. 4.8 Item being for sale</i></p>
+<p align="center"><img src="images/capstone_iv_sale.png"  width="520" target="_blank"/><br><i>Fig. 1.8 Here we are putting the Air Yeezy 2 on sale with a discount of 20%</i></p>
+
+- **View total inventory value:** This lets us know the total value of the stock we currently have for each item so - price x quantity = value.
+
+<p align="center"><img src="images/capstone_iv_value_01.PNG"  width="400" target="_blank"/><br><i>Fig. 1.9 Total stock value top</i></p>
+<p align="center"><img src="images/capstone_iv_value_02.PNG"  width="400" target="_blank"/><br><i>Fig. 2.0 Total stock value bottom</i></p>
+
+- **Exit:** terminates the program Note: There is no need to worry about saving changes as changes are saved whenever they are made.
+
+
 
 
 ---
