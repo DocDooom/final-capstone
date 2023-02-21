@@ -121,11 +121,11 @@ The program will automatically detect whether you have included it or not.
 
 - **Restock low items:** This gives you the ability to view what item has the lowest stock and decide to restock that item
 
-<p align="center"><img src="images/capstone_iv_restock.png"  width="490" target="_blank"/><br><i>Fig. 1.7 The above gives you the option to change stock levels to a new desired value</i></p>
+<p align="center"><img src="images/capstone_iv_restock.PNG"  width="490" target="_blank"/><br><i>Fig. 1.7 The above gives you the option to change stock levels to a new desired value</i></p>
 
 - **Put High Stock Items On Sale:** This options shows the item with the highest stock amount and lets you input the **percentage (%)** you'd like to discount by
 
-<p align="center"><img src="images/capstone_iv_sale.png"  width="520" target="_blank"/><br><i>Fig. 1.8 Here we are putting the Air Yeezy 2 on sale with a discount of 20%</i></p>
+<p align="center"><img src="images/capstone_iv_sale.PNG"  width="520" target="_blank"/><br><i>Fig. 1.8 Here we are putting the Air Yeezy 2 on sale with a discount of 20%</i></p>
 
 - **View total inventory value:** This lets us know the total value of the stock we currently have for each item so - price x quantity = value.
 
