@@ -16,7 +16,7 @@ This script allows a user to manage and administrate their stock. In this partic
 in the **inventory.txt** file provided. However, any text file containing CSV formatted data can be read by the manager.
 To search by SKU a unique SKU identifier must be included.
 
-  <p align="center"><img src="images/capstone_iv_01.PNG"  width="500" target="_blank"/><br><i>Inventory Manager main menu</i></p>
+  <p align="center"><img src="images/capstone_iv_01.PNG"  width="400" target="_blank"/><br><i>Inventory Manager main menu</i></p>
 
 ### Files Inclduded
 - **inventory.py:** Main program file containing the **Shoes** class and functions to perform various tasks.
