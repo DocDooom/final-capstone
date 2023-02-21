@@ -1,10 +1,10 @@
 # DfE Software Engineering - Capstone Projects
-- Author: <a href="https://www.linkedin.com/in/gabriel-desir/" target="_blank">McZane Gabriel Desir </a>
+- Created By: <a href="https://www.linkedin.com/in/gabriel-desir/" target="_blank">McZane Gabriel Desir </a>
 
 ## Table of Contents
-| Name                                                                     | Description  |  Technology  |
-|--------------------------------------------------------------------------|---|---|
-| [Shoe Store Inventory Manager](#capstone-project-iv-inventory-system) | Built a financial calculator that allows the user to access two different financial calculators: an investment calculator and a home loan repayment calculator.  | Python |
+| Name                                                                     | Description                                                                                                             |  Technology  |
+|--------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|---|
+| [Shoe Store Inventory Manager](#capstone-project-iv-inventory-system) | A shoe store inventory manager that allows the user to add, update and view all of the stock in their store's inventory | Python |
 
 
 ---
@@ -13,45 +13,58 @@
 
 <a href="https://bit.ly/3WB1Uru" target="_blank"> :arrow_right: Preview</a> 
 
-### Introduction
-This program is an **inventory management tool** for shoe warehouses. It allows the user to perform various tasks related to **managing the warehouse** and its **inventory**. It will read from the text file **inventory.txt**.
+### Overview
+This script allows a user to manage and administrate their stock. In this particular example a shoe store's inventory is included
+in the **inventory.txt** file provided. However, any text file containing CSV formatted data can be read by the manager.
+To search by SKU a unique SKU identifier must be included.
 
-  <p align="center"><img src="assets/capston04_1.png"  width="600" target="_blank"/><br><i>Fig. 4.1 Overview of Inventory Management System</i></p>
+  <p align="center"><img src="images/capstone_iv_01.png"  width="500" target="_blank"/><br><i>Inventory Manager main menu</i></p>
 
 ### Getting Started
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+The following instruction will help you get up and running
 
 #### Prerequisites
-You will need the following software to run the **inventory management tool**:
+You will need the following installed to run the **inventory management tool**
+These can either be installed globally or you can create a virtual environment
+learn more about virtual environments here
+
+- [How to Set Up a Virtual Environment](https://www.freecodecamp.org/news/how-to-setup-virtual-environments-in-python/)
+
+The following packages/installs are needed:
 
 - [Python 3](https://www.python.org/)
-- [tabulate](https://pypi.org/project/tabulate/) (for formatting table output)
+- [Tabulate](https://pypi.org/project/tabulate/) (for formatting table output)
+- [Pandas](https://pypi.org/project/pandas/) (used for handling of CSV data)
 
 #### Installation
-To get started with the inventory system, follow these steps:
 
 1. **Clone** the repository:
 
 ```sh
-git clone https://github.com/cwchan0212/finalCapstone.git
+git clone https://github.com/DocDooom/final-capstone.git
 ```
 
-2. **Navigate** to the project directory:
-
-```
-cd finalCapstone/capstone_04/
-```
-
-3. **Run** the **inventory.py** file:
-
-```sh
-python inventory.py
-
-```
-4. Install tabulate library:
+2. Install Tabulate:
 
 ```sh
 pip install tabulate
+```
+
+3. Install Pandas:
+
+```sh
+pip install pandas
+```
+4. **Navigate** to the project directory:
+
+```
+cd ./capstone_iv/
+```
+
+5. **Run** the **inventory.py** file:
+
+```sh
+python inventory.py
 ```
 
 ### File Structure
@@ -127,4 +140,4 @@ Once the user accesses the program, the menu is shown below:
 ---
 
 ## Acknowledgments
-This projects were inspired by [HyperionDev](https://www.hyperiondev.com/). 
+This project(s) is my solution for tasks created by [HyperionDev](https://www.hyperiondev.com/). 
