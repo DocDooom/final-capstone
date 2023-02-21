@@ -18,12 +18,12 @@ To search by SKU a unique SKU identifier must be included.
 
   <p align="center"><img src="images/capstone_iv_01.PNG"  width="400" target="_blank"/><br><i>Inventory Manager main menu</i></p>
 
-### Files Inclduded
+### Files Included
 - **inventory.py:** Main program file containing the **Shoes** class and functions to perform various tasks.
 - **inventory.txt:** A text file containing the data for the shoe warehouse.
 
 ### Getting Started
-The following instruction will help you get up and running
+The following instructions will help you get up and running
 
 #### Prerequisites
 You will need the following installed to run the **inventory management tool**
@@ -74,6 +74,18 @@ python inventory.py
 ### Usage
 To run the program, execute the **inventory.py** file. A menu will be displayed, allowing you to choose which task to perform. Follow the prompts to complete the task.
 
+Inventory data should show **Inventory data OK ✓.**
+If there is a problem you will see the following screen:
+
+<p align="center"><img src="images/capstone_iv_inv_error.PNG"  width="600" target="_blank"/><br><i>Fig. 1.1 Inventory Error</i></p>
+
+If this occurs you should check that your **inventory.txt** file is located in the same folder as your
+**inventory.py** file.
+
+Issues with the data within the **inventory.txt** will produce a warning.
+
+<p align="center"><img src="images/capstone_iv_inv_warning.PNG"  width="750" target="_blank"/><br><i>Fig. 1.2 Inventory Error</i></p>
+
 #### Menu
 The program launches with a header and main menu from this menu you can select actions you'd like to take on
 the loaded inventory.
@@ -87,19 +99,6 @@ the loaded inventory.
 - **e** - Exit
 
   <p align="center"><img src="images/capstone_iv_01.PNG"  width="400" target="_blank"/><br><i>Fig. 1 Main Menu</i></p>
-
-Inventory data should show **Inventory data OK ✓.**
-If there is a problem you will see the following screen:
-
-<p align="center"><img src="images/capstone_iv_inv_error.PNG"  width="600" target="_blank"/><br><i>Fig. 1.1 Inventory Error</i></p>
-
-If this occurs you should check that your **inventory.txt** file is located in the same folder as your
-**inventory.py** file.
-
-Issues with the data within the **inventory.txt** will produce a warning.
-
-<p align="center"><img src="images/capstone_iv_inv_warning.PNG"  width="750" target="_blank"/><br><i>Fig. 1.2 Inventory Error</i></p>
-
 
 #### Features
 
