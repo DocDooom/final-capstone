@@ -1,9 +1,10 @@
-## DfE Software Engineering - Capstone Projects
+# DfE Software Engineering - Capstone Projects
 - Author: <a href="https://www.linkedin.com/in/gabriel-desir/" target="_blank">McZane Gabriel Desir </a>
 
-| Name  | Description  |  Skills  | Completion Date  | Difficulty  | Preview |
-|---|---|---|---|:-:|:-:|
-| [Financial Calculator](#capstone-project-i-financial-calculator)  | Built a financial calculator that allows the user to access two different financial calculators: an investment calculator and a home loan repayment calculator.  | Python  | 6 December 2022  | :star: :star:  | <a href="https://bit.ly/3vyy77A" target="_blank"> :arrow_right: </a>  |
+## Table of Contents
+| Name                                                                     | Description  |  Technology  |
+|--------------------------------------------------------------------------|---|---|
+| [Shoe Store Inventory Manager](#capstone-project-iv-inventory-system) | Built a financial calculator that allows the user to access two different financial calculators: an investment calculator and a home loan repayment calculator.  | Python |
 
 
 ---
