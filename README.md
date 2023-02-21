@@ -1,17 +1,15 @@
-# DfE Software Engineering - Capstone Projects
+# HyperionDev DfE Software Engineering - Capstone Projects
 - Created By: <a href="https://www.linkedin.com/in/gabriel-desir/" target="_blank">McZane Gabriel Desir </a>
 
 ## Table of Contents
-| Name                                                                     | Description                                                                                                             |  Technology  |
-|--------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|---|
-| [Shoe Store Inventory Manager](#capstone-project-iv-inventory-system) | A shoe store inventory manager that allows the user to add, update and view all of the stock in their store's inventory | Python |
+| Name                                                                   | Description                                                                                                             |  Technology  |
+|------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|---|
+| [Shoe Store Inventory Manager](#capstone-project-iv-inventory-manager) | A shoe store inventory manager that allows the user to add, update and view all of the stock in their store's inventory | Python |
+
 
 
 ---
-
-## [Capstone Project IV: Inventory System](#dfe-software-engineering---capstone-projects) 
-
-<a href="https://bit.ly/3WB1Uru" target="_blank"> :arrow_right: Preview</a> 
+## [Capstone Project IV: Inventory Manager](#dfe-software-engineering---capstone-projects) 
 
 ### Overview
 This script allows a user to manage and administrate their stock. In this particular example a shoe store's inventory is included
@@ -19,6 +17,10 @@ in the **inventory.txt** file provided. However, any text file containing CSV fo
 To search by SKU a unique SKU identifier must be included.
 
   <p align="center"><img src="images/capstone_iv_01.PNG"  width="500" target="_blank"/><br><i>Inventory Manager main menu</i></p>
+
+### Files Inclduded
+- **inventory.py:** Main program file containing the **Shoes** class and functions to perform various tasks.
+- **inventory.txt:** A text file containing the data for the shoe warehouse.
 
 ### Getting Started
 The following instruction will help you get up and running
@@ -67,38 +69,8 @@ cd ./capstone_iv/
 python inventory.py
 ```
 
-### File Structure
-- **inventory.py:** Main program file containing the **Shoes** class and functions to perform various tasks.
-- **inventory.txt:** A text file containing the data for the shoe warehouse.
+---
 
-### Class
-
-#### Shoes
-
-- Attributes:
-  - **country:** Country of origin for the shoes.
-  - **code:** Unique code for the shoes.
-  - **product:** Name of the shoe product.
-  - **cost:** Cost of the shoes.
-  - **quantity:** Quantity of the shoes in stock.
-
-- Methods:
-  - **get_cost():** Returns the cost of the shoes.
-  - **get_quantity():** Returns the quantity of the shoes.
-  - **__ str__():** Returns a string representation of the shoes.
-
-### Functions
-  - **capture_shoes():** This function allows a user to **capture data** about a shoe and create a shoe object, which is then added to the list of shoes.
-
-  - **view_all():** This function iterates **over the list of shoes** and prints the details of each shoe. Optionally, the details can be formatted as a table using Python's tabulate module.
-
-  - **re_stock():** This function finds the **shoe with the lowest quantity** and asks the user if they want to **add more** of this type of shoe to the warehouse. If the user confirms, the quantity is updated in the **inventory.txt** file and the list of shoes.
-
-  - **search_shoe():** This function **searches** for a shoe in the list using its **code** and returns the shoe object.
-
-  - **value_per_item():** This function **calculates** the **total value** for each item in the warehouse. The total value is calculated as the product of the **cost and quantity** of the shoes.
-
-  - **highest_qty():** This function determines the shoe with the **highest** quantity and prints it as **being for sale**.
 ### Usage
 To run the program, execute the **inventory.py** file. A menu will be displayed, allowing you to choose which task to perform. Follow the prompts to complete the task.
 
