@@ -84,7 +84,7 @@ If this occurs you should check that your **inventory.txt** file is located in t
 
 Issues with the data within the **inventory.txt** will produce a warning.
 
-<p align="center"><img src="images/capstone_iv_inv_warning.PNG"  width="750" target="_blank"/><br><i>Fig. 1.21 Inventory Error</i></p>
+<p align="center"><img src="images/capstone_iv_inv_warning.PNG"  width="750" target="_blank"/><br><i>Fig. 1.2 Inventory Error</i></p>
 
 #### Menu
 The program launches with a header and main menu from this menu you can select actions you'd like to take on
