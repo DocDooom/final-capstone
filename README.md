@@ -55,7 +55,7 @@ pip install tabulate
 ```sh
 pip install pandas
 ```
-4. **Navigate** to the project directory:
+4. In a Terminal or Command Prompt window **Navigate** to the project directory:
 
 ```
 cd ./capstone_iv/
