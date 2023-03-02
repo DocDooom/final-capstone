@@ -1,0 +1,5 @@
+admin, adm1n
+mike, m1ke
+mark, m4rk
+mick, m1ck
+julie, jul1e

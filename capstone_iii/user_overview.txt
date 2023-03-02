@@ -1,0 +1,36 @@
+———————————————— User Overview ————————————————
+• Admin •
+Tasks Assigned:                           3
+Percentage of Tasks Assigned:             50.0%
+Percentage of Tasks Assigned Completed:   33.33
+Percentage Left To Complete:              66.67%
+Percentage of Tasks Overdue:              33.33%
+
+• Mike •
+Tasks Assigned:                           2
+Percentage of Tasks Assigned:             33.33%
+Percentage of Tasks Assigned Completed:   0.0
+Percentage Left To Complete:              100.0%
+Percentage of Tasks Overdue:              50.0%
+
+• Mark •
+Tasks Assigned:                           0
+Percentage of Tasks Assigned:             0.0%
+Percentage of Tasks Assigned Completed:   0.0
+Percentage Left To Complete:              100.0%
+Percentage of Tasks Overdue:              0.0%
+
+• Mick •
+Tasks Assigned:                           0
+Percentage of Tasks Assigned:             0.0%
+Percentage of Tasks Assigned Completed:   0.0
+Percentage Left To Complete:              100.0%
+Percentage of Tasks Overdue:              0.0%
+
+• Julie •
+Tasks Assigned:                           1
+Percentage of Tasks Assigned:             16.67%
+Percentage of Tasks Assigned Completed:   100.0
+Percentage Left To Complete:              0.0%
+Percentage of Tasks Overdue:              0.0%
+

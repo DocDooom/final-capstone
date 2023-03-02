@@ -1,0 +1,6 @@
+admin, Register Users with taskManager.py, Use taskManager.py to add the usernames and passwords for all team members that will be using this program., 10 Oct 2019, 07 Feb 2023, Yes
+admin, Assign initial tasks, Use taskManager.py to assign each team member with appropriate tasks, 10 Oct 2019, 20 Jan 2023, No
+mike, afsdfdsa, asdfasdfsdfasd, 19 Dec 2022, 22 Dec 2022, No
+mike, afsdaf, asfdasfsdfma afdafsdafdf, 20 Dec 2022, 28 Jan 2023, No
+admin, Finish Capstone III, I've been coding Cap III for a while and want to finish it!, 05 Jan 2023, 11 Jan 2023, No
+julie, Lorem Ipsum, Lorem Ipsum dolor, 09 Jan 2023, 02 Feb 2023, Yes
