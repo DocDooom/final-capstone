@@ -138,5 +138,5 @@ The program will automatically detect whether you have included it or not.
 
 ---
 
-## Acknowledgments
+## -- Acknowledgments --
 This project(s) is my solution for tasks created by [HyperionDev](https://www.hyperiondev.com/). 
